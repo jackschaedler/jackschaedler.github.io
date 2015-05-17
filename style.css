@@ -1,0 +1,123 @@
+html {
+
+}
+body {
+	  text-rendering: optimizeLegibility;
+	  -moz-osx-font-smoothing: grayscale;
+	  -webkit-font-smoothing: antialiased;
+	  font-smoothing: antialiased;
+	  text-rendering: optimizeLegibility;
+	  margin: 0;
+	  padding: 0;
+	}
+
+
+.themeheader {
+	font-family: 'Lato', sans-serif;
+	font-size: 18;
+	color: #777;
+	font-weight: 400;
+	text-align: left;
+}
+
+.theme {
+	font-family: 'Lato', sans-serif;
+	font-size: 24;
+	color: #222;
+
+	font-weight: 400;
+	text-align: left;
+	line-height: 20px;
+}
+
+.nameheader {
+	font-family: 'Amatic SC', cursive;
+	font-size: 40;
+	color: #222;
+
+	font-weight: 400;
+	text-align: left;
+	line-height: 35px;
+}
+
+.namesubheader {
+	font-family: 'Lato', sans-serif;
+	font-size: 30;
+	color: #555;
+
+	margin-left: 0px;
+	font-weight: 200;
+	text-align: left;
+}
+
+
+.projects {
+	text-align: left;
+
+	font-size: 17px;
+	font-family: 'Vollkorn', serif;
+	color: #666666;
+}
+
+.project {
+	font-size: 19px;
+	font-family: 'Vollkorn', serif;
+	color: #222222;
+	/*float: left;*/
+	width: 100%;
+	padding-top: 150px;
+}
+
+.projectpageheader {
+	font-size: 18px;
+	font-family: 'Vollkorn', serif;
+	color: #222222;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+
+.postcard {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.master {
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 12px;
+	font-family: 'Vollkorn', serif;
+	color: #999999;
+}
+
+.master img {
+	margin-bottom: 10px;
+}
+
+/* unvisited link */
+a:link {
+    /*color: rgb(86, 112, 140);*/
+    color: #222;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    /*color: rgb(86, 112, 140);*/
+    color: #222;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(86, 112, 140);
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgb(86, 112, 140);
+    text-decoration: none;
+}
+
+sup { vertical-align: top; position: relative; top: -0.1em; }
