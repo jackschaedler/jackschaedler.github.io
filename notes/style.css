@@ -12,15 +12,7 @@ body {
 	}
 
 p {
-    text-indent: 25px;
-}
-
-.master {
-	margin: 80px;
-}
-
-.postcard {
-	margin: 80px;
+    text-indent: 0px;
 }
 
 .partdata {
@@ -35,25 +27,25 @@ p::first-letter {
 
 /* unvisited link */
 a:link {
-    color: rgb(86, 112, 140);
+    color: indigo;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: rgb(86, 112, 140);
+    color: indigo;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: rgb(86, 112, 140);
+    color: indigo;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: rgb(86, 112, 140);
+    color: indigo;
     text-decoration: none;
 }
 
@@ -96,6 +88,7 @@ a:active {
 	margin-left: 50px;
 /*		margin-right: auto;*/
 	color: #222222;
+	text-align:;
 }
 
 .textfontonly {
@@ -149,7 +142,7 @@ a:active {
 	margin-left: auto;
 	margin-right: auto;
 	color: #333333;
-	text-align: center;
+	text-align: left;
 }
 
 .textbutton {
@@ -242,7 +235,7 @@ a:active {
 }
 
 .figureTable {
-	width: 1200px;
+	width: 900px;
 	margin-left: 50px;
 }
 
